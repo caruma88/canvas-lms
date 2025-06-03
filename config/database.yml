@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   encoding: utf8
   database: canvas_production
-  host: localhost
-  username: canvas
-  password: your_password
+  host: postgresql://postgres:MXYDWVAQOgQBphWMbHalrQlHPgpzOMoj@postgres.railway.internal:5432/railway
+  username: postgres
+  password: MXYDWVAQOgQBphWMbHalrQlHPgpzOMoj
   timeout: 5000
